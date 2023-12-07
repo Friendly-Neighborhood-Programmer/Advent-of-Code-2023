@@ -37,7 +37,7 @@ impl Race {
     }
 }
 
-//Part 1
+// Part 1
 fn get_races(file: &str) -> Vec<Race> {
     let input: Vec<String> = BufReader::new(File::open(file).expect("input file not found"))
         .lines()
