@@ -9,7 +9,6 @@ fn main() {
     let mut hands = get_hands("input.txt");
     hands.sort();
 
-    // 248909434
     println!("{:?}", hands);
     println!("{:?}", get_winnings(hands));
 }
